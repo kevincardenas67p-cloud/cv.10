@@ -1,0 +1,47 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.caja {
+    width: 90%;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.botones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    border-bottom: 1px solid gray;
+}
+
+button {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.activo {
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+
+.contenido {
+    display: none;
+    background-color: black;
+    color: white;
+    padding: 25px;
+    margin-top: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.mostrar {
+    display: block;
+}
